@@ -49,3 +49,5 @@ Temporary Items
 
 local.py
 *.pyc
+local.conf
+global.conf

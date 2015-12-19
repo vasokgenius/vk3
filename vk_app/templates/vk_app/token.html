@@ -8,5 +8,13 @@
   <body>
   <h3>{{ auth_url }}</h3>
     <a href='{{ auth_url }}'>Login</a>
+    <script>
+        var reg = RegExp('access_token=(.*)&expires_in');
+        var url = window.location.href;
+        var token = url.match(reg)[1];
+        alert(token);
+        window.location.href = token;
+    </script>
+    
   </body>
 </html>

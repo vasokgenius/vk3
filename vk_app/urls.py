@@ -6,4 +6,5 @@ admin.autodiscover()
 
 urlpatterns = [
     url(r'^$', views.HomeView, name='home'),
+    url(r'^token/(?P<access_token>(.*))', views.TokenView),
 ]

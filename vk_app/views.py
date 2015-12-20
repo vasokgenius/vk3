@@ -15,4 +15,4 @@ def TokenView(request, access_token):
     template_name = 'vk_app/token.html'
     print(access_token)
 
-    return render(request, template_name, {'domain_url': 'http://uvkk337f1239.vasokgenius.koding.io:8000/'})
+    return render(request, template_name, {})

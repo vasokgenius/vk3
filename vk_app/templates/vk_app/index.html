@@ -1,12 +1,30 @@
 {% load staticfiles %}
 <!DOCTYPE HTML>
-<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'vk_app/css/styles.css' %}" />
 <html>
-    <head>
 
-    </head>
-  <body>
-  <h3>{{ auth_url }}</h3>
-    <a href='{{ auth_url }}'>Login</a>
-  </body>
+<head>
+
+</head>
+
+<style type='text/css'>
+  body{
+    margin: 0px;
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("static/vk_app/images/background.jpg");
+}
+</style>
+
+<body>
+  <div class='table'>
+    <div class='cell'>
+      <div class='login_div'>
+        <a class='base' style='font-size: 48px;' href='{{ auth_url }}'>LOGIN</a>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>

@@ -44,6 +44,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'vk_app',
+    'tumblr_app',
 )
 
 MIDDLEWARE_CLASSES = (

@@ -1,0 +1,3 @@
+VK_V = '5.37'
+VK_REDIRECT_URI = ''
+VK_CLIENT_ID = ''

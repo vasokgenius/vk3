@@ -1,7 +1,7 @@
 import requests
 import json
 import urllib
-from .settings import *
+from ..settings import *
 
 
 AUTH_URL = 'https://oauth.vk.com/authorize?client_id={0}&scope={1}&display={2}\
